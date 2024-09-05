@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    line-height: 200%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(145, 155, 248);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-maior{
+background-color:rgb(130, 174, 240);
+color:rgb(0, 0, 0);
+padding: 40px;
+border-radius: 10px;
+}
+
+input {
+    outline:none;
+}
+
+.caixa-pequena{
+    display:flex;
+    align-items:center;
+}
+
+.previsao{
+    text-transform: capitalize;
+}
+
+button{
+    cursor:pointer;
+}
+
